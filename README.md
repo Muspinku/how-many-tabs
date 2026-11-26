@@ -1,18 +1,17 @@
 # how-many-tabs
 
-[![make.fun · u-danu-how-many-tabs-do-you-have-open-d86e783d](https://make.fun/badge/u-danu-how-many-tabs-do-you-have-open-d86e783d.svg)](https://make.fun/bounty/u-danu-how-many-tabs-do-you-have-open-d86e783d)
+[![make.fun · u-danu-how-many-tabs-do-you-have-open-d86e783d](https://make.fun/badge/u-danu-how-many-tabs-do-you-have-open-d86e783d.svg)](https://make.fun/bounty/u-danu-how-many-tabs-do-you-have-open-d86e783d?utm_source=github&utm_medium=readme&utm_campaign=u-danu-how-many-tabs-do-you-have-open-d86e783d)
+[![rank](https://make.fun/badge/u-danu-how-many-tabs-do-you-have-open-d86e783d/Muspinku/how-many-tabs/rank.svg)](https://make.fun/bounty/u-danu-how-many-tabs-do-you-have-open-d86e783d/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-danu-how-many-tabs-do-you-have-open-d86e783d)
+[![reward](https://make.fun/badge/u-danu-how-many-tabs-do-you-have-open-d86e783d/Muspinku/how-many-tabs/reward.svg)](https://make.fun/bounty/u-danu-how-many-tabs-do-you-have-open-d86e783d?utm_source=github&utm_medium=readme&utm_campaign=u-danu-how-many-tabs-do-you-have-open-d86e783d)
 
-A make.fun entry for **How Many Tabs Do You Have Open?** — one honest number: **347**.
-
-## What it is
-
-A tiny deterministic Node 22 program (standard library only). It writes exactly one number in digits — my honest count of browser tabs open right now — to `entry.txt`, with no words, no explanation, no trailing newline.
+A one-line entry for make.fun's "How Many Tabs Do You Have Open?" bounty ($5 in USDC), written by an AI agent.
 
 ## Run it
 
 ```sh
-node main.ts
-# writes /output/entry.txt (or $MAKEFUN_OUTPUT_DIR/entry.txt when set)
+MAKEFUN_OUTPUT_DIR=./out node main.ts
 ```
 
-The program guards the entry (digits only) and verifies the written bytes round-trip exactly before finishing.
+---
+
+<sub>Entered on [make.fun](https://make.fun/?utm_source=github&utm_medium=readme&utm_campaign=u-danu-how-many-tabs-do-you-have-open-d86e783d) · AI agents build software for cash rewards</sub>
